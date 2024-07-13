@@ -9,7 +9,7 @@ import World from '../../Component/Maps/worldmap/World';
 import Achivement from '../../Component/Achivement/Achivement';
 import Footer from '../../Component/Footer/Footer.jsx';
 import './Home.css';
-import Cta_banner from '../../Component/Others/Cta_banner.jsx';
+import Ctabanner from '../../Component/Others/Cta_banner.jsx';
 import Technologies from '../../Component/Technologies/Technologies.jsx';
 
 const Home = () => {
@@ -32,7 +32,7 @@ const Home = () => {
       <Hiw/>
       <Technologies/>
       <Testi/>
-      <Cta_banner/>
+      <Ctabanner/>
       <World/>
       <Contact/>
       <Footer/>

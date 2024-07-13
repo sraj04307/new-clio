@@ -1,15 +1,12 @@
 import React, { useState } from 'react'
 import './Technologies.css'
+import { Link } from 'react-router-dom';
 import { SiAdobeillustrator, SiAdobephotoshop, SiAdobexd, SiCanva, SiGoogleads, SiGoogleanalytics, SiKotlin, SiMongodb, SiSemrush, SiWoo, SiZoho } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
-import { SiAmazondynamodb } from "react-icons/si";
 import { IoLogoFigma, IoLogoFirebase, IoLogoIonic } from "react-icons/io5";
 import { BiLogoPostgresql } from "react-icons/bi";
-import { SiRubyonrails } from "react-icons/si";
-import { SiWoocommerce } from "react-icons/si";
 import { DiCodeigniter, DiDotnet, DiJqueryLogo } from "react-icons/di";
-import { RiFlutterFill, RiTailwindCssFill } from "react-icons/ri";
-import { RiNextjsLine } from "react-icons/ri";
+import { RiFlutterFill} from "react-icons/ri";
 import { FaHubspot, FaInstagramSquare, FaLaravel, FaLinkedin, FaMailchimp, FaSwift, FaYoutube } from 'react-icons/fa';
 import { FaSquareFacebook } from 'react-icons/fa6';
 import { TbSeo } from 'react-icons/tb';
@@ -103,35 +100,35 @@ const Technologies = () => {
                 <div className="tech-tabs">
                     <ul className="nav nav-pills justify-content-between align-items-center shadow rounded">
                     <li className="nav-item" onClick={activate5}>
-                            <a className={active5 ? "nav-link active" : "nav-link"} ><i className="fas fa-edit"></i> CMS</a>
+                            <Link className={active5 ? "nav-link active" : "nav-link"} ><i className="fas fa-edit"></i> CMS</Link>
                         </li>
                         <li className="nav-item" onClick={activate2}>
-                            <a className={active2 ? "nav-link active" : "nav-link"}><i className="fas fa-desktop"></i> Front
-                                End</a>
+                            <Link className={active2 ? "nav-link active" : "nav-link"}><i className="fas fa-desktop"></i> Front
+                                End</Link>
                         </li>
                         <li className="nav-item" onClick={activate4}>
-                            <a className={active4 ? "nav-link active" : "nav-link"} ><i className="fas fa-server"></i>
-                                Backend</a>
+                            <Link className={active4 ? "nav-link active" : "nav-link"} ><i className="fas fa-server"></i>
+                                Backend</Link>
                         </li>
                         <li className="nav-item" onClick={activate3}>
-                            <a className={active3 ? "nav-link active" : "nav-link"}><i className="fas fa-database"></i>
-                                Database</a>
+                            <Link className={active3 ? "nav-link active" : "nav-link"}><i className="fas fa-database"></i>
+                                Database</Link>
                         </li>
                         <li className="nav-item " onClick={activate1}>
-                            <a className={active1 ? "nav-link active" : "nav-link"}>
-                                <i className="fas fa-mobile-alt"></i> Mobile</a>
+                            <Link className={active1 ? "nav-link active" : "nav-link"}>
+                                <i className="fas fa-mobile-alt"></i> Mobile</Link>
                         </li>
                         
                         
                       
                        
                         <li className="nav-item" onClick={activate6}>
-                            <a className={active6 ? "nav-link active" : "nav-link"} ><i className="fa-solid fa-pen-ruler"></i> UX Design</a>
+                            <Link className={active6 ? "nav-link active" : "nav-link"} ><i className="fa-solid fa-pen-ruler"></i> UX Design</Link>
                         </li>
                         <li className="nav-item" onClick={activate7}>
-                            <a className={active7 ? "nav-link active" : "nav-link"} >
+                            <Link className={active7 ? "nav-link active" : "nav-link"} >
                             <i class="fa-brands fa-digital-ocean"></i>
-                                 Digital </a>
+                                 Digital </Link>
                         </li>
                         
                     </ul>

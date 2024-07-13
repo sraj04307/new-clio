@@ -1,6 +1,5 @@
 import React, { useState} from 'react'
 import './About2.css'
-import { Link } from 'react-router-dom';
 import img1 from '../../../../assets/img/About Us/about us.jpg'
 import CountUp from "react-countup";
 import ScrollTrigger from 'react-scroll-trigger';

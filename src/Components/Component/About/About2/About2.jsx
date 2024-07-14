@@ -3,7 +3,6 @@ import "./About2.css";
 import img1 from "../../../../assets/img/About Us/about page.jpg";
 import CountUp from "react-countup";
 import ScrollTrigger from "react-scroll-trigger";
-import { Link } from "react-router-dom";
 
 const About2 = () => {
   const [counterOn, setCounterOn] = useState(true);

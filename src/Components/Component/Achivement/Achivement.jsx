@@ -2,10 +2,6 @@ import React, { useState } from 'react'
 import CountUp from 'react-countup'
 import ScrollTrigger from 'react-scroll-trigger'
 import './Achivement.css'
-import img1 from '../../../assets/img/ClioCode Icon/Finished Projects.png'
-import img2 from '../../../assets/img/ClioCode Icon/Satisfied Clients.png'
-import img3 from '../../../assets/img/ClioCode Icon/Skill-Expert.png'
-import img4 from '../../../assets/img/ClioCode Icon/Social media.png'
 
 const Achivement = () => {
 

@@ -1,3 +1,10 @@
+.testimonial-box-items .client-items .client-content .star i{
+    color: yellow;
+}
+
+.testimonial-box-items .client-items .client-content h4{
+    color: #243a82;
+}
 
 .testi2 .testimonial-box-items{
     height: 100% !important;

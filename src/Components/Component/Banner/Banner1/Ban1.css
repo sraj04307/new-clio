@@ -1,4 +1,4 @@
-.sr-slider-img{
+/* .sr-slider-img{
     background-image: url("../../../../assets//img/Home\ Page\ Banner/1.jpg");
     background-size:100%;
 }
@@ -12,8 +12,12 @@
 .sr-slider-image3{
     background-image: url("../../../../assets//img/Home\ Page\ Banner/3.jpg");
     background-size: 100%;
-}
+} */
 
+.hero-3 .hero-content h1 {
+    font-size: 40px;
+    font-weight: 500;
+}
 
 @media (max-width: 1399px) {
     .hero-3 .hero-content {

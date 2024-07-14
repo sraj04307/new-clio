@@ -1,6 +1,7 @@
 import React,{useEffect} from 'react'
 import Footer from '../Component/Footer/Footer'
 import Banner2 from '../Component/Banner/Banner2/Banner2'
+import img from '../../assets/img/Banner2/Digital Marketing.jpg'
 
 const DigitalMarketing = () => {
 
@@ -16,7 +17,7 @@ const DigitalMarketing = () => {
 
   return (
     <>
-    <Banner2 message={"Digital Marketing"}/>
+    <Banner2 message={"Digital Marketing"} image={img}/>
     Digital Marketing
       <Footer/>
     </>

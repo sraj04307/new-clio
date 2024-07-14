@@ -3,6 +3,8 @@ import Banner2 from '../../Component/Banner/Banner2/Banner2'
 import Footer from '../../Component/Footer/Footer'
 import Brand2 from '../../Component/Brand/Brand2/Brand2'
 
+import img from '../../../assets/img/Banner2/client 1.jpg'
+
 import img1 from '../../../assets/img/All Logo/1.png'
 import img2 from '../../../assets/img/All Logo/2.png'
 import img3 from '../../../assets/img/All Logo/3.png'
@@ -40,7 +42,7 @@ const HappyClient = () => {
 
   return (
     <>
-        <Banner2 message={"Our Happy Client"}/>
+        <Banner2 message={"Our Happy Client"} image={img}/>
         <section className='testimonial-detail-section'>
           <div className="container">
             <div className="row py-5">

@@ -17,12 +17,6 @@ const About = () => {
 
                         <div className={'myfadein-left active col-lg-6 wow fadeInUp'} data-wow-delay=".4s">
                             <div className="about-image">
-                                <div className="shape-image">
-                                    {/* <img src={img1} alt="shape-img" /> */}
-                                </div>
-                                <div className="circle-shape">
-                                    {/* <img src={img1} alt="shape-img" /> */}
-                                </div>
                                 <img src={img1} alt="about-img" />
                                 <div className={"content active"}>
                                     <h2>
@@ -32,12 +26,12 @@ const About = () => {
                                             </ScrollTrigger>
                                             {counterOn && <CountUp
                                                 start={0}
-                                                end={150}
-                                                duration={4}
+                                                end={5}
+                                                duration={2}
                                             />
                                             }</span>+
                                     </h2>
-                                    <span>Satisfied Clients</span>
+                                    <span>Years Experience</span>
                                 </div>
 
                             </div>
@@ -73,7 +67,7 @@ const About = () => {
                                         <div className="content">
                                             <span>Call Us Now</span>
                                             <h5>
-                                                <Link to="tel:+2085550112">+208-555-0112</Link>
+                                                <Link to="tel:+918368629185">+918368629185</Link>
                                             </h5>
                                         </div>
                                     </div>

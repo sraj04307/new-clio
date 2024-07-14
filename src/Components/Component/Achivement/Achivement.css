@@ -14,3 +14,11 @@
     color: white;
 }
 
+.achivement-bg{
+    background-color: rgba(0, 0, 0, 0.475);
+    border-radius: 5px;
+}
+
+.achievement-section-3 i{
+    font-size: 45px;
+}

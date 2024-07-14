@@ -92,7 +92,7 @@ const Technologies = () => {
         <section className="tech-section">
             <div className="container">
                 <div className="tech-header">
-                    <h2>Our Technologies</h2>
+                    <h2>Technologies We Work</h2>
                     <p>We work with various technologies to solve for your exact business use case. We are a technology
                         driven company, hence we are always ahead in terms of adapting latest technical trends and
                         implementing them.</p>
@@ -127,7 +127,7 @@ const Technologies = () => {
                         </li>
                         <li className="nav-item" onClick={activate7}>
                             <Link className={active7 ? "nav-link active" : "nav-link"} >
-                            <i class="fa-brands fa-digital-ocean"></i>
+                            <i className="fa-brands fa-digital-ocean"></i>
                                  Digital </Link>
                         </li>
                         

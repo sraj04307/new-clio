@@ -3,6 +3,7 @@ import Card1 from '../Card/Card1/Card1'
 import { Link } from 'react-router-dom'
 import Banner2 from '../Component/Banner/Banner2/Banner2'
 import Footer from '../Component/Footer/Footer'
+import img from '../../assets/img/Banner2/blog.jpg'
 
 
 const Blog = () => {
@@ -20,7 +21,7 @@ const Blog = () => {
 
   return (
     <>
-    <Banner2 message={"Blog Grid"}/>
+    <Banner2 message={"Blog Grid"} image={img}/>
     <section className="news-section-4 fix section-padding">
         <div className="container">
             <div className="row g-4">

@@ -6,7 +6,7 @@ const Banner2 = (props) => {
   return (
     <div className="breadcrumb-wrapper bg-cover">
     <div className="line-shape">
-        <img src="assets/img/line-element.png" alt="shape-img"/>
+        <img src={props.image} alt="shape-img"/>
     </div>
     <div className="container">
         <div className="page-heading">

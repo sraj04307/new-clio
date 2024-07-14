@@ -1,8 +1,11 @@
 .breadcrumb-wrapper{
-background: url('../../../../assets/img/About\ Us/3.jpg');
-background-size:cover;
+/* background: url('../../../../assets/img/About\ Us/3.jpg'); */
+/* background-size:cover; */
 }
 
+.breadcrumb-wrapper::before{
+    z-index: 1;
+}
 
 
 @keyframes banner2anim {
@@ -23,4 +26,8 @@ background-size:cover;
 }
 .breadcrumb-wrapper .breadcrumb-items li a{
     animation: headanim1 0.8s ease-in-out;
+}
+
+.breadcrumb-wrapper .page-heading{
+    padding: 100px 0;
 }

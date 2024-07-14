@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import img1 from '../../../assets/img/teams/Person 1.jpg'
-import img2 from '../../../assets/img/teams/Person 2.jpg'
-import img3 from '../../../assets/img/teams/Person 3.jpg'
-import img4 from '../../../assets/img/teams/Person 4.jpg'
+import img1 from '../../../assets/img/teams/Rajesh Sharma.jpg'
+import img2 from '../../../assets/img/teams/Amit Kumar.jpg'
+import img3 from '../../../assets/img/teams/Krish Yadav.jpg'
+import img4 from '../../../assets/img/teams/Shubham Raj.jpg'
 import './Teams.css'
 
 

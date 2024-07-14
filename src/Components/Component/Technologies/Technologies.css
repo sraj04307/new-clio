@@ -1,9 +1,10 @@
 .tech-section {
     padding: 50px 0;
-    background-color: white;
+    background-color: #ebebeb;
 }
+.nav{background-color: white;}
 
-.tech-header {
+.tech-section .tech-header {
     text-align: center;
     margin-bottom: 30px;
 }
@@ -86,4 +87,8 @@
 }
 .tab-content.active{
     display: block;
+}
+
+.tech-section{
+
 }

@@ -90,7 +90,7 @@
   position: absolute;
   top: 16%;
   left: 13%;
-  animation: mapanim1 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim1 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -99,7 +99,7 @@
   position: absolute;
   top: 16%;
   left: 43%;
-  animation: mapanim2 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim2 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -108,7 +108,7 @@
   position: absolute;
   top: 43%;
   left: 50%;
-  animation: mapanim3 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim3 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -117,7 +117,7 @@
   position: absolute;
   top: 43%;
   left: 59%;
-  animation: mapanim4 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim4 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -126,7 +126,7 @@
   position: absolute;
   top: 45%;
   left: 69%;
-  animation: mapanim5 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim5 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -135,7 +135,7 @@
   position: absolute;
   top: 42%;
   left: 80%;
-  animation: mapanim6 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim6 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }
@@ -144,7 +144,7 @@
   position: absolute;
   top: 67%;
   left: 82%;
-  animation: mapanim7 0.8s ease-in-out infinite alternate;
+  /* animation: mapanim7 0.8s ease-in-out infinite alternate; */
   opacity: 0;
   transition: all 0.3s ease-in-out;
 }

@@ -32,7 +32,7 @@ const Brand = () => {
         <div className="brand-section fix section-padding">
             <div className="container">
                 <div className="brand-wrapper">
-                    <h6 className="text-center">1k + Brands Trust Us</h6>
+                    <h6 className="text-center">Trusted by global brands.</h6>
                     <div className="swiper brand-slider">
                         <div className="swiper-wrapper ">
 

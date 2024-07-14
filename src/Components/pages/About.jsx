@@ -2,8 +2,6 @@ import React, { useEffect } from "react";
 import Banner2 from "../Component/Banner/Banner2/Banner2";
 import About2 from "../Component/About/About2/About2";
 import Service2 from "../Component/Service/Service2/Service2";
-import Teams from "../Component/Teams/Teams";
-import Brand from "../Component/Brand/Brand";
 import Footer from "../Component/Footer/Footer";
 import "../../assets/css/About.css";
 

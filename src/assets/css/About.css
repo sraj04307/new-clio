@@ -53,7 +53,6 @@ background-color: white;
 .why-choose-us2 .feature-box h3 {
     text-align: left;
     color: #002c89;
-    margin-top: 10px;
     font-size: 18px;
 }
 
@@ -79,4 +78,9 @@ background-color: white;
 
 .why-choose-us2 .section-title p {
     color: #666;
+}
+
+.why-choose-us2 .feature-icon {
+    font-size: 3em;
+    color: #002c89;
 }

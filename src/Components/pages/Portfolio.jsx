@@ -20,7 +20,7 @@ import img14 from './../../assets/img/portfolio/14.jpg'
 import img15 from './../../assets/img/portfolio/15.jpg'
 import img16 from './../../assets/img/portfolio/16.jpg'
 import img17 from './../../assets/img/portfolio/17.jpg'
-import img18 from './../../assets/img/portfolio/18.jpg'
+// import img18 from './../../assets/img/portfolio/18.jpg'
 import img19 from './../../assets/img/portfolio/19.jpg'
 import img20 from './../../assets/img/portfolio/20.jpg'
 import img21 from './../../assets/img/portfolio/21.jpg'
@@ -114,8 +114,8 @@ const Portfolio = () => {
         </div>
       </section>
 
-      <section className='portfolio-content'>
-        <div className="container">
+      <section className='portfolio-content pb-5' >
+        <div className="container ">
           <div className={active1 ? "row active d-flex flex-wrap" : "row "}>
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
@@ -123,7 +123,20 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img1} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: WORDPRESS | MYSQL | ECOMMERCE | RESPONSIVE</h3>
+                </div>
+
+              </div>
+
+            </div>
+
+            <div className='col-lg-6 col-12 pt-3'>
+              <div className="sr-nit-box">
+                <div className="img-box">
+                  <img className="img-fluid" src={img8} alt="" />
+                </div>
+                <div className="nit-profolio-info">
+                  <h3 className="sr-nit-inds">TECHNOLOGY: WORDPRESS | MYSQL | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -136,7 +149,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img2} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -149,7 +162,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img3} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -162,19 +175,20 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img4} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
 
             </div>
+
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img5} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -182,6 +196,7 @@ const Portfolio = () => {
             </div>
 
           </div>
+
           <div className={active2 ? "row active d-flex flex-wrap" : "row "}>
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
@@ -189,43 +204,33 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img6} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
 
             </div>
+
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img21} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
 
             </div>
-            <div className='col-lg-6 col-12 pt-3'>
-              <div className="sr-nit-box">
-                <div className="img-box">
-                  <img className="img-fluid" src={img8} alt="" />
-                </div>
-                <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
-                </div>
 
-              </div>
-
-            </div>
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img9} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | CODEIGNITER | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -237,7 +242,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img10} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOCOMMERCE</h3>
                 </div>
 
               </div>
@@ -245,6 +250,7 @@ const Portfolio = () => {
             </div>
 
           </div>
+
           <div className={active3 ? "row active d-flex flex-wrap" : "row "}>
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
@@ -252,7 +258,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img11} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOCOMMERCE</h3>
                 </div>
 
               </div>
@@ -265,7 +271,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img12} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -278,31 +284,33 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img13} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
 
             </div>
+
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img14} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | CODEIGNITER | ECOMMERCE | RESPONSIVE</h3>
                 </div>
 
               </div>
 
             </div>
+
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img15} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS| RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -310,6 +318,7 @@ const Portfolio = () => {
             </div>
 
           </div>
+
           <div className={active4 ? "row active d-flex flex-wrap" : "row "}>
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
@@ -317,7 +326,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img16} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOCOMMERCE</h3>
                 </div>
 
               </div>
@@ -330,20 +339,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img17} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
-                </div>
-
-              </div>
-
-            </div>
-
-            <div className='col-lg-6 col-12 pt-3'>
-              <div className="sr-nit-box">
-                <div className="img-box">
-                  <img className="img-fluid" src={img18} alt="" />
-                </div>
-                <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOCOMMERCE</h3>
                 </div>
 
               </div>
@@ -356,7 +352,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img19} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -369,7 +365,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img20} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | .NET| RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -378,19 +374,8 @@ const Portfolio = () => {
 
 
           </div>
+
           <div className={active5 ? "row active d-flex flex-wrap" : "row "}>
-            <div className='col-lg-6 col-12 pt-3'>
-              <div className="sr-nit-box">
-                <div className="img-box">
-                  <img className="img-fluid" src={img21} alt="" />
-                </div>
-                <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
-                </div>
-
-              </div>
-
-            </div>
 
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
@@ -398,7 +383,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img22} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | CODEIGNITER | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -411,7 +396,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img23} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOOCOMMERCE</h3>
                 </div>
 
               </div>
@@ -424,19 +409,20 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img24} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOCOMMERCE</h3>
                 </div>
 
               </div>
 
             </div>
+
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img25} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -449,7 +435,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img27} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -462,7 +448,7 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img28} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
@@ -475,19 +461,20 @@ const Portfolio = () => {
                   <img className="img-fluid" src={img29} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE</h3>
                 </div>
 
               </div>
 
             </div>
+
             <div className='col-lg-6 col-12 pt-3'>
               <div className="sr-nit-box">
                 <div className="img-box">
                   <img className="img-fluid" src={img30} alt="" />
                 </div>
                 <div className="nit-profolio-info">
-                  <h3 className="sr-nit-inds">Technology: WordPress | MySQL | Ecommerce | Responsive </h3>
+                  <h3 className="sr-nit-inds">TECHNOLOGY: PHP | WORDPRESS | RESPONSIVE | WOCOMMERCE</h3>
                 </div>
 
               </div>

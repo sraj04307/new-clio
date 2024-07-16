@@ -130,83 +130,83 @@ const WebDev = () => {
 
             <Hiw />
 
-            <section class="webdevelopment-section3 section-padding">
-                <div class="container">
-                    <div class="row text-center">
-                        <div class="col-12">
-                            <h2 class="mb-4">Industries We Famous for Website Development</h2>
+            <section className="webdevelopment-section3 section-padding">
+                <div className="container">
+                    <div className="row text-center">
+                        <div className="col-12">
+                            <h2 className="mb-4">Industries We Famous for Website Development</h2>
                         </div>
                     </div>
-                    <div class="row">
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-shopping-cart"></i>
+                    <div className="row">
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-shopping-cart"></i>
                                 <p>E-commerce websites</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-spa"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-spa"></i>
                                 <p>Beauty and Wellness Services</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-graduation-cap"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-graduation-cap"></i>
                                 <p>Education and Learning</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-film"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-film"></i>
                                 <p>Entertainment and Live Streaming</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-university"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-university"></i>
                                 <p>Finance and Banking</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-dumbbell"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-dumbbell"></i>
                                 <p>Fitness and Workout</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-shopping-basket"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-shopping-basket"></i>
                                 <p>Food and Grocery Delivery</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-heartbeat"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-heartbeat"></i>
                                 <p>Healthcare and Wellness</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-tools"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-tools"></i>
                                 <p>Home Services and Repairs</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-book"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-book"></i>
                                 <p>Library Management System</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-truck"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-truck"></i>
                                 <p>Logistics and Delivery</p>
                             </div>
                         </div>
-                        <div class="col-md-3 mt-4">
-                            <div class="industry-card">
-                                <i class="fas fa-paw"></i>
+                        <div className="col-md-3 mt-4">
+                            <div className="industry-card">
+                                <i className="fas fa-paw"></i>
                                 <p>Pet Care and Services</p>
                             </div>
                         </div>
@@ -315,10 +315,10 @@ const WebDev = () => {
                         </p>
                         <div className='d-flex justify-content-center gap-5 mt-4'>
                             <div className='contact-now'>
-                                <Link to="/contact"><i class="fa-regular fa-address-book me-2"></i>Contact Us</Link>
+                                <Link to="/contact"><i className="fa-regular fa-address-book me-2"></i>Contact Us</Link>
                             </div>
                             <div className='call-now'>
-                                <Link href=""> <i class="fa-solid fa-phone me-2"></i>Call Now</Link>
+                                <Link href=""> <i className="fa-solid fa-phone me-2"></i>Call Now</Link>
                             </div>
                         </div>
                     </div>

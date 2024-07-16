@@ -22,6 +22,11 @@
    /* width: 100%; */
 }
 
+.tech-icon:hover {
+    background-color: #000000 !important;
+    color: white;
+}
+
 .tech-tabs .nav-link i{
  color: #002c89;
 }

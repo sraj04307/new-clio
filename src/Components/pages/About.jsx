@@ -4,6 +4,7 @@ import About2 from "../Component/About/About2/About2";
 import Service2 from "../Component/Service/Service2/Service2";
 import Footer from "../Component/Footer/Footer";
 import "../../assets/css/About.css";
+import img from '../../assets/img/Banner2/Abput Us.jpg'
 
 const About = () => {
   useEffect(() => {
@@ -17,7 +18,7 @@ const About = () => {
 
   return (
     <>
-      <Banner2 message={"About Us"} />
+      <Banner2 message={"About Us"} image={img} />
 
       <About2 />
       <section className="section-padding about-mission-vision-section">
@@ -63,93 +64,114 @@ const About = () => {
           </div>
           <div class="row">
             <div class="col-md-4">
-            <div class="feature-box d-flex flex-column gap-3">
-            <div class="feature-icon d-flex align-items-center gap-3">
+              <div class="feature-box d-flex gap-4 ">
+                <div class="feature-icon ">
                   <i class="fas fa-dollar-sign"></i>
-                  <h3>Affordable Prices</h3>
+
                 </div>
-              
-                 
+
+                <div>
+                  <h3>Affordable Prices</h3>
                   <p>
                     Economically Develop Responsive Website and APPS by
                     Experienced Web Experts.
                   </p>
-       
+                </div>
+
               </div>
             </div>
             <div class="col-md-4">
-            <div class="feature-box d-flex flex-column gap-3">
-            <div class="feature-icon d-flex gap-3">
+              <div class="feature-box d-flex gap-4">
+                <div class="feature-icon">
                   <i class="fas fa-clock"></i>
-                  <h3>Timely and Quality Delivery</h3>
+
                 </div>
-               
-                  
+
+                <div>
+                  <h3>Timely and Quality Delivery</h3>
                   <p>
                     Beta Soft Technology delivers timely and qualitative
                     result-driven projects.
                   </p>
+
+                </div>
+
+
+
               </div>
             </div>
             <div class="col-md-4">
-            <div class="feature-box d-flex flex-column gap-3">
-            <div class="feature-icon d-flex gap-3">
+              <div class="feature-box  d-flex gap-4">
+                <div class="feature-icon">
                   <i class="fas fa-users"></i>
-                  <h3>Professionals Team</h3>
                 </div>
-               
-                  
+
+                <div>
+                  <h3>Professionals Team</h3>
                   <p>
                     Beta Soft Technology has a team of experts to cater to your
                     business's needs.
                   </p>
-               
+                </div>
+
               </div>
             </div>
             <div class="col-md-4">
-            <div class="feature-box d-flex flex-column gap-3">
-            <div class="feature-icon d-flex gap-3">
+              <div class="feature-box d-flex gap-4 align-items-center">
+                <div class="feature-icon">
                   <i class="fas fa-tasks"></i>
+
+                </div>
+                <div>
                   <h3>Result Oriented Approach</h3>
-                </div>    
                   <p>
                     Beta Soft Technology stands out with the approach of quality
                     worth.
                   </p>
+                </div>
+
               </div>
             </div>
             <div class="col-md-4">
-            <div class="feature-box d-flex flex-column gap-3">
-            <div class="feature-icon d-flex gap-3">
+              <div class="feature-box d-flex gap-4">
+                <div class="feature-icon">
                   <i class="fas fa-cogs"></i>
-                  <h3>Great Working Process</h3>
+
                 </div>
-   
-                  
+
+                <div>
+                  <h3>Great Working Process</h3>
                   <p>
                     Team of expert Web Professionals at Beta Soft Technology.
                   </p>
-         
+                </div>
+
+
+
+
               </div>
             </div>
             <div class="col-md-4">
-              <div class="feature-box d-flex flex-column gap-3">
-                <div class="feature-icon d-flex gap-3">
+              <div class="feature-box d-flex gap-4">
+                <div class="feature-icon">
                   <i class="fas fa-star"></i>
-                  <h3>Fully Client Satisfaction</h3>
+
                 </div>
-              
+
+                <div>
+                  <h3>Fully Client Satisfaction</h3>
                   <p>
                     Beta Soft Technology has completed more than 2000 projects
                     in a short time.
                   </p>
-              
+                </div>
+
               </div>
             </div>
           </div>
         </div>
       </section>
-      
+
       <Footer scrollpos={1700} />
     </>
   );

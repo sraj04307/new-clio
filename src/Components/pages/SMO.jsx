@@ -2,11 +2,12 @@ import React from 'react'
 import Footer from '../Component/Footer/Footer'
 import Banner2 from '../Component/Banner/Banner2/Banner2'
 import '../../assets/css/Smo.css'
+import img from '../../assets/img/Banner2/SMO.jpg'
 
 const SMO = () => {
   return (
     <>
-      <Banner2 message={"SMO"} />
+      <Banner2 message={"SMO"} image={img} />
       <section className="sr-smo-nit-smo section-padding">
         <div className="container">
           <div className="sr-smo-nit-smo-box">

@@ -2,12 +2,13 @@ import React from 'react'
 import '../../assets/css/CRP.css'
 import Banner2 from '../Component/Banner/Banner2/Banner2'
 import Footer from '../Component/Footer/Footer'
+import img from '../../assets/img/Banner2/content writing.jpg'
 
 const CRP = () => {
     return (
         <>
 
-            <Banner2 message={"Content Writing"} />
+            <Banner2 message={"Content Writing"} image={img} />
 
             <section className="sr-crp-nit-crp sr-crp-nit-content-writing-packages section-padding">
                 <div className="container">

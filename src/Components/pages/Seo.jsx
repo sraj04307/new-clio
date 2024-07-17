@@ -2,11 +2,12 @@ import React from 'react'
 import Footer from '../Component/Footer/Footer'
 import Banner2 from '../Component/Banner/Banner2/Banner2'
 import '../../assets/css/Seo.css'
+import img from '../../assets/img/Banner2/SEO.jpg'
 
 const Seo = () => {
   return (
     <>
-      <Banner2 message={"SEO"} />
+      <Banner2 message={"SEO"} image = {img} />
       <section className="sr-seo-nit-seo section-padding">
         <div className="container">
             <div className="sr-seo-nit-seo-box">

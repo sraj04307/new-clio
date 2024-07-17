@@ -2,11 +2,12 @@ import React from 'react'
 import Banner2 from '../Component/Banner/Banner2/Banner2'
 import Footer from '../Component/Footer/Footer'
 import '../../assets/css/PPC.css'
+import img from '../../assets/img/Banner2/PPC.jpg'
 
 const PPC = () => {
   return (
     <>
-    <Banner2 message={"PPC"} />
+    <Banner2 message={"PPC"} image={img}/>
 
     <section className="sr-ppc-nit-ppc section-padding">
         <div className="container">

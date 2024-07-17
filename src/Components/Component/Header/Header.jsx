@@ -150,6 +150,20 @@ const Header = () => {
                                                 </li>
 
                                                 <li>
+                                                    <NavLink>
+                                                        Package
+                                                        <i className="fas fa-angle-down"></i>
+                                                    </NavLink>
+                                                    <ul className="submenu">
+                                                        <li><Link to="/seo">SEO Package</Link></li>
+                                                        <li><Link to="/smo">SMO Package</Link></li>
+                                                        <li><Link to="/ppc">PPC Package</Link></li>
+                                                        <li><Link to="/crp">Content Writing Package</Link></li>
+                                                        
+                                                    </ul>
+                                                </li>
+
+                                                <li>
                                                     <NavLink to="/industries">
                                                         Industries
                                                     </NavLink>
@@ -181,6 +195,8 @@ const Header = () => {
                                     </div>
                                 </div>
                             </div>
+
+                            
                         </div>
                     </div>
                 </div>

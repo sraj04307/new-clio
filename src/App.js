@@ -48,6 +48,8 @@ import DigitalMarketing from "./Components/pages/DigitalMarketing";
 import AppDev from "./Components/pages/AppDev";
 import WebAcceseblity from "./Components/pages/WebAcceseblity";
 import GraphicDesign from './Components/pages/GraphicDesign'
+import PPC from "./Components/pages/PPC";
+import CRP from "./Components/pages/CRP";
 
 
 function App() {
@@ -92,6 +94,8 @@ function App() {
 
             <Route path="/seo" element={<Seo/>}/>
             <Route path="/smo" element={<SMO/> }/>
+            <Route path="/ppc" element={<PPC/> }/>
+            <Route path="/crp" element={<CRP/> }/>
             <Route path="/smm" element={<SMM/> }/>
             <Route path="/googlead" element={<GoogleAd/>}/>
 

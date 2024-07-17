@@ -25,7 +25,7 @@ header nav i{
 }
 
 .header-main .main-menu ul li {
-    margin-right: 25px !important;
+    margin-right: 13px !important;
 }
 
 .header-main .main-menu ul li a{
@@ -179,4 +179,7 @@ header .service-menu ul.active4{
 
 #mobile-menu li a:hover{
     color: #243a82;
+}
+header .submenu{
+    overflow: hidden;
 }

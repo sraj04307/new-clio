@@ -33,7 +33,7 @@ const Service = () => {
         <div className="container">
           <div className="section-title text-center">
             <span className={"wow  ourservice active"}>OUR SERVICES</span>
-            <h2 className={"wow  ourservice2 active"}>
+            <h2 className={"wow  ourservice2 active sr-subheading-font-size"}>
               We Provide the Best Quality
             </h2>
           </div>

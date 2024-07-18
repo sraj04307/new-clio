@@ -44,7 +44,7 @@ const About2 = () => {
                     About <p>Clio</p>
                     <span>Code</span>{" "}
                   </span>
-                  <h2 className="sr-about1-heading" data-wow-delay=".3s">
+                  <h2 className="sr-about1-heading sr-subheading-font-size" data-wow-delay=".3s">
                     Professional Web Development company in india
                   </h2>
                 </div>

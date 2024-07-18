@@ -34,7 +34,7 @@ const Footer = () => {
                 <div className="content">
                     <p>Make a Quote</p>
                     <h3>
-                        <Link to="mailto:Info@cliocode.com">Info@cliocode.com</Link>
+                        <Link to="mailto:info@cliocode.com">info@cliocode.com</Link>
                     </h3>
                 </div>
             </div>

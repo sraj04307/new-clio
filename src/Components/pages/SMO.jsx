@@ -45,7 +45,7 @@ const SMO = () => {
                     <td><h2 className="sr-smo-nit-title">6 Months</h2></td>
                   </tr>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Facebook Activities</h3> </td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Facebook Activities</h3> </td>
                   </tr>
                 </thead>
                 <tbody>
@@ -129,7 +129,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Twitter</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Twitter</h3></td>
                   </tr>
                 </thead>
 
@@ -171,7 +171,7 @@ const SMO = () => {
                   </tr>
                 </tbody><thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Google Local Page</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Google Local Page</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -206,7 +206,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">LinkedIn</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">LinkedIn</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -255,7 +255,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Pinterest</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Pinterest</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -304,7 +304,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Instagram</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Instagram</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -332,7 +332,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Apsense</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Apsense</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -374,7 +374,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Social Bookmarking</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Social Bookmarking</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -388,7 +388,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Blogs Marketing</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Blogs Marketing</h3></td>
                   </tr>
                 </thead>
                 <tbody>
@@ -423,7 +423,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Video Marketing</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Video Marketing</h3></td>
                   </tr>
                 </thead>
                 <tbody><tr>
@@ -471,7 +471,7 @@ const SMO = () => {
                 </tbody>
                 <thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Project Update</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Project Update</h3></td>
                   </tr>
                 </thead>
                 <tbody><tr>
@@ -497,7 +497,7 @@ const SMO = () => {
                   </tr>
                 </tbody><thead>
                   <tr className="sr-smo-nit-heading-3">
-                    <td colspan="6"><h3 className="sr-smo-nit-subtitle">Support</h3></td>
+                    <td colSpan="6"><h3 className="sr-smo-nit-subtitle">Support</h3></td>
                   </tr>
                 </thead>
                 <tbody>

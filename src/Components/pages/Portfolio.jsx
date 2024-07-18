@@ -42,10 +42,10 @@ import img7 from '../../assets/img/Banner2/PORTFOLIO.jpg'
 
 const Portfolio = () => {
 
-  const [active1, setActive1] = useState(true);
+  const [active1, setActive1] = useState(false);
   const [active2, setActive2] = useState(false);
   const [active3, setActive3] = useState(false);
-  const [active4, setActive4] = useState(false);
+  const [active4, setActive4] = useState(true);
   const [active5, setActive5] = useState(false);
 
   function activate1() {
@@ -104,11 +104,11 @@ const Portfolio = () => {
         <div className="container">
           <nav>
             <ul className='d-flex justify-content-between text-center overflow-hidden rounded-pill shadow'>
-              <li className={active1 ? 'active' : ''} onClick={activate1}>Logo Design</li>
+              <li className={active4 ? 'active' : ''} onClick={activate4}>Ecommerce Website</li>
               <li className={active2 ? 'active' : ''} onClick={activate2}>Web Application</li>
               <li className={active3 ? 'active' : ''} onClick={activate3}>Mobile Application</li>
-              <li className={active4 ? 'active' : ''} onClick={activate4}>Ecommerce Website</li>
               <li className={active5 ? 'active' : ''} onClick={activate5}>Digital Marketing</li>
+              <li className={active1 ? 'active' : ''} onClick={activate1}>Logo Design</li>
             </ul>
           </nav>
         </div>

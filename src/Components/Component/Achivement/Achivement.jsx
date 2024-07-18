@@ -11,7 +11,7 @@ const Achivement = () => {
             <div className="container">
                 <div className="row">
                     <span className="text-white text-center">achievement</span>
-                    <h2 className="text-white text-center" data-wow-delay=".3s">
+                    <h2 className="text-white text-center sr-subheading-font-size">
                         Why Choose Us
                     </h2>
                 </div>

@@ -61,7 +61,7 @@ const Forms = () => {
                         </div>
                         <div className="col-lg-6">
                             <div className="contact-content">
-                                <h2>Ready to Get Started?</h2>
+                                <h2 className="sr-subheading-font-size">Ready to Get Started?</h2>
                                 <p className='mb-2'>
                                     Nullam varius, erat quis iaculis dictum, eros urna varius eros, ut blandit felis odio in turpis. Quisque rhoncus, eros in auctor ultrices,
                                 </p>
@@ -80,7 +80,7 @@ const Forms = () => {
 
                                     <div className="mb-3">
                                         <select id="dropdown" className="form-control w-100">
-                                            <option selected>Choose...</option>
+                                            <option defaultValue>Choose...</option>
                                             <option value="1">Option 1</option>
                                             <option value="2">Option 2</option>
                                             <option value="3">Option 3</option>

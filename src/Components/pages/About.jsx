@@ -26,7 +26,7 @@ const About = () => {
           <div class="row">
             <div class="col-md-6">
               <div class="custom-box shadow custom-box1">
-                <h2>Our Approach</h2>
+                <h2 className="sr-subheading-font-size">Our Approach</h2>
                 <p>
                   In the fast-paced world of digital marketing, staying ahead
                   requires a dynamic and adaptive approach. At Infinikey Media
@@ -39,7 +39,7 @@ const About = () => {
             </div>
             <div class="col-md-6">
               <div class="custom-box  shadow custom-box2">
-                <h2>Our Mission</h2>
+                <h2 className="sr-subheading-font-size">Our Mission</h2>
                 <p>
                   We believe that every business deserves a powerful and
                   effective online presence. Our mission is to empower your
@@ -56,7 +56,7 @@ const About = () => {
       <section class="why-choose-us2 section-padding">
         <div class="container">
           <div class="section-title pb-4">
-            <h2>Why Choose Us</h2>
+            <h2 className="sr-subheading-font-size">Why Choose Us</h2>
             <p>
               Beta Soft Technology is one of the most prominent & professionally
               managed Web development & Web design company in Delhi India.

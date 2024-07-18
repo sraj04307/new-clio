@@ -12,7 +12,7 @@ const World = () => {
                 <div className="row">
                     <div className="col-12 text-center mb-5">
                         <span className={"active"}>Footprints</span>
-                        <h2 className={"active"}>Our Footprints</h2>
+                        <h2 className={"active sr-subheading-font-size"}>Our Footprints</h2>
                     </div>
                     <div className="col-12 map" >
                         {/* <div className="overlay">

@@ -31,7 +31,7 @@ const ClientTestimonial = () => {
       <section className='section-padding testimonial-video-section'>
         <div className="container">
           <h3 className="text-center mt-5">Video Testimonials</h3>
-          <p className="text-center my-3">Word of Mouth is the Best Advertising</p>
+          <p className="text-center my-3 sr-subheading-font-size">Word of Mouth is the Best Advertising</p>
 
           <div className="row mt-5">
             <Swiper

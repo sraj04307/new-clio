@@ -8,7 +8,7 @@ const Hiw = () => {
             <div className="container">
                 <div className="section-title text-center">
                     <span className={'active'}>How IT work</span>
-                    <h2 className={'active'}>Standard Work Process</h2>
+                    <h2 className={'active sr-subheading-font-size'}>Standard Work Process</h2>
                 </div>
                 <div className="process-work-wrapper">
                     <div className="line-shape">

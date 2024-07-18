@@ -27,7 +27,7 @@ const Testi = () => {
                 <div className="row">
                     <div className="col-12 text-center">
                     <span className={"text-white span-active"}>Testimonials</span>
-                    <h2 className={"text-white h2-active"}>
+                    <h2 className={"text-white h2-active sr-subheading-font-size"}>
                                 People Who Already Love Us
                             </h2>
                     </div>

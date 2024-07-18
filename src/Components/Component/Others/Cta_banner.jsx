@@ -9,7 +9,7 @@ const Cta_banner = () => {
     return (
         <section className="business-growth section-padding">
             <div className="container">
-                <h2>Grow Your Business Online With Us</h2>
+                <h2 className='sr-subheading-font-size'>Grow Your Business Online With Us</h2>
                 <p className='pt-2'>A Digital Marketing & Web Designing Company with All Services in Delhi, India</p>
                 <div className="row justify-content-center align-items-center">
 

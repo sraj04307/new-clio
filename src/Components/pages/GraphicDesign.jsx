@@ -42,7 +42,7 @@ const GraphicDesign = () => {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-md-6 content-box">
-              <h2>One-Stop Solution For Graphic Designing</h2>
+              <h2 className='sr-subheading-font-size'>One-Stop Solution For Graphic Designing</h2>
               <p>As a leading WordPress Website Development Company, we at MWD are proud to offer the best and most affordable website design services tailored to meet your specific needs. Our expertise in creating one-page websites, optimizing for SEO, ensuring responsiveness, and incorporating user-friendly design elements sets us apart from the competition.</p>
               <p>Whether you're a small business owner or a startup entrepreneur looking to make a splash in the digital world, our comprehensive services are designed to elevate your brand with ease. Join us as we embark on a journey to revolutionize the way websites are built and maintained!</p>
               <p>Our expertise in creating one-page websites, optimizing for SEO, ensuring responsiveness.</p>
@@ -64,7 +64,7 @@ const GraphicDesign = () => {
 
       <section className="Graphicdesign-section2 bg-light section-padding">
         <div className="container">
-          <h2 className="text-center">Our Exclusive Graphic Designing Service</h2>
+          <h2 className="text-center sr-subheading-font-size">Our Exclusive Graphic Designing Service</h2>
           <p className="text-center">At Ideamagix, we believe in identifying problems before offering web development solutions. This approach sets us apart. We delve into the unique challenges of your business, understanding that each business has specific needs. Our tailored web development services provide effective solutions to meet your requirements.</p>
           <div className="row">
             <div className="col-md-4 mt-4">
@@ -133,7 +133,7 @@ const GraphicDesign = () => {
         <div className="container">
           <div className="row text-center">
             <div className="col-12">
-              <h2 className="mb-4">Industries We Famous for Graphic Designing</h2>
+              <h2 className="mb-4 sr-subheading-font-size">Industries We Famous for Graphic Designing</h2>
             </div>
           </div>
           <div className="row">
@@ -217,7 +217,7 @@ const GraphicDesign = () => {
       <section className='Graphicdesign-section4 section-padding'>
         <div className="container">
           <div className="row ">
-            <h2 className='text-center'>Our Recent Works</h2>
+            <h2 className='text-center sr-subheading-font-size'>Our Recent Works</h2>
           </div>
 
           <div className="row py-4">
@@ -306,7 +306,7 @@ const GraphicDesign = () => {
       <section className='section-padding Graphicdesign-section5'>
         <div className="container">
           <div className="row text-center">
-            <h2>Start Your Project Today With ClioCode</h2>
+            <h2 className='sr-subheading-font-size'>Start Your Project Today With ClioCode</h2>
             <p className='py-2'>
               As a leading WordPress Website Development Company, we at MWD are proud to offer the best and most affordable website design services tailored to meet your specific needs. Our expertise in creating one-page websites, optimizing for SEO, ensuring responsiveness, and incorporating user-friendly design elements sets us apart from the competition.
 

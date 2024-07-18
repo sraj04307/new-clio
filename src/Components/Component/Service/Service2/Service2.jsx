@@ -14,7 +14,7 @@ const Service2 = () => {
             <div className="container">
                 <div className="section-title text-center">
                     <span className={"wow  active"}>Our offering</span>
-                    <h2 className={"wow  active"} data-wow-delay=".3s">
+                    <h2 className={"wow  active sr-subheading-font-size"} data-wow-delay=".3s">
                         Enhance and Pioneer Using <br/> Technology Trends
                     </h2>
                 </div>

@@ -12,7 +12,7 @@ const Service = () => {
         <div className="section-title-area">
             <div className="section-title">
                 <span className={'active'}>What We Do</span>
-                <h2 className={'active'}>
+                <h2 className={'active sr-subheading-font-size'}>
                     We Solve IT Problems <br/> With Technology
                 </h2>
             </div>
